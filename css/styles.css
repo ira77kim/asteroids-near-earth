@@ -82,6 +82,13 @@ p{
 #search:hover{
   opacity: 1;
 }
+#link{
+  position: absolute;
+  top:80vh;
+  right:5vw;
+  color:#608094;
+
+}
 
 a{
   color:#608094;
@@ -102,7 +109,7 @@ a{
   #space{
     position:absolute;
     left:5vw;
-    top:20vh;
+    top:15vh;
     margin:0vw;
     font-size: 1.5vw;
     color:#608094;
@@ -120,7 +127,7 @@ a{
   p{
     margin:0vw;
     font-size:1.3vw;
-    width:23vw;
+    width:31vw;
     color:#608094;
     
   }
@@ -129,7 +136,7 @@ a{
   
     position:absolute;
     left:5vw;
-    top:30vh;  
+    top:20vh;  
     margin:0vw;
   }
   #description{
@@ -168,5 +175,11 @@ a{
     color:white;
     text-decoration: none;
   }
+  #link{
+    position: absolute;
+    top: 95vh;
+    left:78vw;
+    /* color:#608094; */
 
+  }
 }

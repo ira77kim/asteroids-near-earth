@@ -109,7 +109,7 @@ a{
   #space{
     position:absolute;
     left:5vw;
-    top:15vh;
+    top:10vh;
     margin:0vw;
     font-size: 5vw;
     color:#608094;
@@ -136,7 +136,7 @@ a{
   
     position:absolute;
     left:5vw;
-    top:20vh;  
+    top:15vh;  
     margin:0vw;
   }
   #description{

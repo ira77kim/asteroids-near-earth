@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>NASA api-aestroids visualization</title>
+  <meta name="description" content="Visualization of 'near earth objects' of input date using NASA api and three.js.">
+  <meta name="author" content="Dae Young Kim">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  
+  <header></header>
+
+
+
+    <!-- this is a test form block -->
+    <span id="title">asteroids near earth</span>
+
+    
+    <form id="space" name="position" action="#" >
+      <label for="SearchBox">date:</label>
+      <input type="text" name="date" id="dateInput" STYLE="background-color: #46717e; color: #103044" placeholder="YYYY-MM-DD">
+      <button type="submit" id="search">load</button>
+      
+    </form>
+    <!-- <p id="Output"></p> -->
+    <p id="Outputnames"></p>
+    <p id="description">"asteroids near earth" is an interctive datavis project made with NASA's data on near-earth-objects.
+      <br><br>based on the input date on the left, asteroids that were near the earth will be visualized. 
+      <br><br>each asteroid is shown with different randomized colors, and is moving according to its size and speed, measured and recorded by nasa.
+      <br><br>all data is provided by NASA's open api: <a href="https://api.nasa.gov/">api.nasa.gov</a>
+    </p>
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+  <script type="module" src="js/threeSceneInit.js"></script>
+  <script src="js/apiScript.js"></script>
+
+  
+</body>
+</html>
+

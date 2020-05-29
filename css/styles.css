@@ -111,28 +111,28 @@ a{
     left:5vw;
     top:15vh;
     margin:0vw;
-    font-size: 3.5vw;
+    font-size: 5vw;
     color:#608094;
   }
   #dateInput{
-    font-size:3.5vw;
+    font-size:4.5vw;
     text-align: center;
-    width:25vw;
+    width:30vw;
     border-radius: 0.5vw;
     border:none;
     padding-top: 0.5vw;
-    padding-bottom:2px;
+    padding-bottom:1px;
 
   }
   p{
     margin:0vw;
-    font-size:3.5vw;
+    font-size:4.5vw;
     width:31vw;
     color:#608094;
     
   }
   #Outputnames{
-    font-size:3.5vw;
+    font-size:4.5vw;
   
     position:absolute;
     left:5vw;
@@ -140,7 +140,7 @@ a{
     margin:0vw;
   }
   #description{
-    font-size:3vw;
+    font-size:4vw;
     /* width:25vw; */
     position: absolute;
     right:5vw;
@@ -159,16 +159,14 @@ a{
     /* padding: 0.781vw 1.667vw; */
     text-align: center;
     display: inline-block;
-    font-size: 1.3vw;
+    font-size: 4.5vw;
     border-radius: 0.5vw;
     font-family:'Quicksand', sans-serif;
     font-weight: 600;
     color: #103044;
     opacity:0.8;
   }
-  #search:hover{
-    opacity: 1;
-  }
+
   a{
     font-size: 3vw;
     font-weight:100;
@@ -178,8 +176,9 @@ a{
   #link{
     font-size: 3vw;
     position: absolute;
-    top: 95vh;
+    top: 107vh;
     left:78vw;
+    padding-bottom: 2vh;
     /* color:#608094; */
 
   }
